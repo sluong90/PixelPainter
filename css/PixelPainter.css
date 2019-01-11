@@ -1,0 +1,136 @@
+h1{
+   font-family: 'Allerta Stencil', sans-serif;
+   text-shadow: 3px 3px 2px aquamarine;
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+body{
+   background-image: url(https://wallpapertag.com/wallpaper/full/f/0/b/128200-popular-background-abstract-2560x1440-for-samsung.jpg);
+   background-size: cover;
+}
+
+.container{
+   height: 300px;
+   width: 350px; 
+   border: 2px solid lightskyblue;
+   display: grid;
+   /* grid-template-columns: auto auto auto; */
+   grid-template-columns: repeat(auto-fit, 10px);
+   grid-template-rows: repeat(auto-fit, 10px);
+   background-color: white;
+   grid-auto-flow: dense;
+
+}
+
+.colorPal{
+    height: 70px;
+   width: 100px; 
+   display: grid;
+   /* grid-template-columns: auto auto auto; */
+   grid-template-columns: repeat(auto-fit, 30px);
+   grid-template-rows: repeat(auto-fit, 30px);
+
+  
+}
+
+.grid{
+   border: 1px solid whitesmoke; 
+}
+
+
+
+.colors{
+    border: 1px solid black;
+}
+
+
+.buttons{
+   margin: 5px 5px;
+}
+
+#erase{
+   width: 100px;
+   height: 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 20px;
+   font-family: 'Marvel', sans-serif;
+   display: inline;
+   background-color: coral;
+   
+}
+
+#clear{
+   width: 100px;
+   height: 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 20px;
+   font-family: 'Marvel', sans-serif;
+   background-color: coral;
+   display: inline;
+
+   
+}
+
+#save{
+   width: 100px;
+   height: 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 20px;
+   font-family: 'Marvel', sans-serif;
+   background-color: coral;
+   display: inline;
+}
+
+#load{
+   width: 100px;
+   height: 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 20px;
+   font-family: 'Marvel', sans-serif;
+   background-color: coral;
+   display: inline;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+
+   .colorPal {
+      width: 100%;
+      
+   }
+
+ }
+
+
+ @media screen and (min-width: 600px) {
+  
+
+   .container {
+      width: 50%;
+      height: 50%;
+       
+   }
+
+ 
+   .colorPal {
+      width: 100%;
+      
+   }
+
+ 
+ }
+ 
